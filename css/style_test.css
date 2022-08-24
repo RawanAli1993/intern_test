@@ -12,11 +12,7 @@ border-radius: 0;
 background-color: white;
 }
 #logo-img{
-/*background: url("/home/rawan/mywebsite/images/logob.png") no-repeat;*/
-
-
-
-background: url("/home/rawan/intern_test/logod2.jpg") no-repeat;
+background: url("https://github.com/RawanAli1993/intern_test/blob/main/logod2.jpg?raw=true") no-repeat;
 width: 230px;
 height: 100px;
 margin: 0px 15px 0px 0px;

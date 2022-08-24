@@ -1,7 +1,7 @@
 body{
 	font-size: 16px;
 	color: #fff;
-	background-color: #D9381E;
+	background-color: #4d4848; /*dark gray*/
 	font-family: 'Oxgen', sans-serif;
 }
 #header-nav{
@@ -14,29 +14,32 @@ background-color: white;
 
 
 
-background: url(https://github.com/RawanAli1993/intern_test/blob/main/logob.png?raw=true) no-repeat;
-width: 150px;
-height: 150px;
-margin: 10px 15px 10px 0px;
+background: url("/home/rawan/intern_test/s2logo2.png") no-repeat;
+width: 230px;
+height: 100px;
+margin: 0px 15px 0px 0px;
 }
+
 .navbar-brand{
 padding-top: 25px;
 }
 .navbar-brand h1{ /* resturant name */
 font-family: 'Lora', serif;
 font-size: 1.5em;
-color: #D9381E;
-text-transform: uppercase;
+color: #0c9c2f;
 text-shadow: 1px 1px 1px #222;
-margin-top: 0;
-margin-bottom: 0;
 font-weight: bold;
 line-height: .75;
+/*text-align: center;*/
+width: 100%;
+padding: 10px 0px 10px 140px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
+	
 }
-.navbar-brand p{ /* kosher */
+/*.navbar-brand p{ /* kosher */
+	/*
 	color: #000;
 	font-size: .7em;
 	text-transform: uppercase;
@@ -44,15 +47,18 @@ line-height: .75;
 
 }
 .navbar-brand p span { /*star*/
-vertical-align: middle;
-}
+/*vertical-align: middle;
+}*/
+
 #nav-list{
 	margin-top: 10px;
 
 }
 #nav-list a {
-	color: #D9381E;
+	color: green;
 	text-align: center;
+	font-weight: bold;
+
 }
 #nav-list a:hover {
 	background: #E7E7E7;
@@ -60,20 +66,21 @@ vertical-align: middle;
 #nav-list a span {
 	font-size: 1.8em;
 }
-#phone{
-	margin-top: 5px;
+/*#phone{
+	margin-top: 15px;
+
 }
 #phone a{
-	text-align: right;
+	text-align: center;
 	padding-bottom: 0;
 
 }
 #phone div{ /*we deliver*/
 
-	color: #fcfb04;
+	/*color: #fcfb04;
 	text-align: right;
 	padding-right: 15px;
-}
+}*/
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
   border: 1px solid #000;
 
@@ -83,6 +90,90 @@ vertical-align: middle;
 	margin-top: -30px;
 }
 /*end header*/
+
+.carousel-caption h2{
+	margin-bottom: 10px;
+/*	margin-left: 30px;*/
+padding-right: 280px;
+font-weight: bold;
+font-style: inherit;
+font-size: 2em;
+color: #000;
+
+
+}
+.carousel-caption h4 {
+	
+	margin-bottom: 10px;
+/*	margin-left: 30px;*/
+padding-right: 280px;
+font-style: inherit;
+font-size: 1em;
+color: #000;
+}
+
+
+.form-container{
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+/*	box-shadow: 0 0 10px 0 #000;*/
+   color: #000;
+   text-align: left;
+	width: 35%;
+	float: right;
+	position: relative;
+}
+
+.carousel-caption h5{
+	margin-bottom: 60px;
+/*	margin-left: 30px;*/
+ padding-right: 280px;
+ font-style: inherit;
+ font-size: 1em;
+ color: #000;
+}
+
+
+.carousel-caption p {
+	margin-bottom: 300px;
+/*	margin-left: 30px;*/
+   padding-right: 280px;
+   margin-top: 0px;
+/*font-style: inherit;
+font-size: 1em;
+color: #000;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+	width :180px;
+	height: 40px;
+	margin: auto;
+	background-color: green;
+	border-radius: 50px;
+	font-size: 14px;
+	border: 1px green;
+	box-shadow: 0px 1px 2px 1px #cccccc ;
+
+}
+
+
+
+
 /*footer*/
 .panel-footer{
 	margin-top: 25px;
@@ -91,15 +182,24 @@ vertical-align: middle;
 	background-color: #222;
 	border-top: 0;
 }
+.panel-footer span{
+	text-align: center;
+	/*margin: 10px 50px 10px 50px;*/
+	padding: 5px  0px 10px 600px;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.8;
+}
 .panel-footer div.row{
 	margin-top: 25px;
 }
+
 #hours, #address{
 	line-height: 2;
 }
-
-#hours > span, #address > span{
+/*.container > span{
 	font-size: 1.3em;
+	*/
 }
 #address p {
 	color: #557c3e;
@@ -107,16 +207,30 @@ vertical-align: middle;
 	line-height: 1.8;
 }
 #testimonials{
-	font-style: italic;
-	font-size: 15px;
-	
+	font-style: inherit;
+	font-size: 16px;
+	margin: auto;
+	text-align: center;
+
 }
 #testimonials p:nth-child(2){
-	margin-top: 25px;
+	margin-top: 5px;
+	font-weight: bold;
 }
-.text-center{
-	font-size: 10px;
+#testimonials p:nth-child(6){
+	margin-top: 35px;
+	margin-left: 100px;
+	padding-top: 20px;
+	border: 1px solid #fff;
+	width: 250px;
+	height: 100px;
+	text-align: center;
+
+
+	
 }
+
+
 
 
 /*end footer*/
@@ -127,7 +241,7 @@ box-shadow: 0 0 50px #d4172d;
 border: 2px solid #d4172d;
 }
 #menu-tile, #specials-tile, #map-tile{
-	height: 250px;
+	height: 400px;
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
@@ -199,7 +313,10 @@ border: 2px solid #d4172d;
 /*end menu categories*/
 /*single item page*/
 .menu-item-tile{
-	margin-bottom: 25px;
+	margin-bottom: 35px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .menu-item-tile hr{
@@ -217,13 +334,14 @@ border: 2px solid #d4172d;
 }
 .menu-item-photo{
 	position: relative;	
-	border: 2px solid #d4172d;
+	/*border: 2px solid #d4172d;*/
 	overflow: hidden;
 	padding: 0;
-	margin-right: -15px;
+	margin-right: 30px;
 	margin-left: auto;
+	margin-top: 5px;
 	margin-bottom: 10px;
-	max-width: 250px;
+	max-width: 64px;
 }
 .menu-item-photo:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
@@ -237,14 +355,17 @@ border: 2px solid #d4172d;
 	text-align: center;
 }
 .menu-item-description {
-   padding-right: 30px;
+   padding-right: 40px;
+  margin-right: auto;
+  margin-left: -50px;
+   /*margin-left: auto;*/
 
 }
 h3.menu-item-title{
 	margin: 0 0 10px;
 }
 .menu-item-details{
-	font-size: .9em;
+	font-size: .8em;
 	font-style: italic;
 }
 
